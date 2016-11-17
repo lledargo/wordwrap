@@ -4,7 +4,7 @@
  * the last non-blank character that occurs before the n'th column of input.
  *
  * K&R 2.2
- * see line 49
+ * see line 53 
  *****************************************************************************/
 
 #include <stdio.h>
@@ -40,6 +40,11 @@ int main()
   }
   return 0;
 }
+
+
+
+// Should produce the same result at stdio getline(). I implemented my own for 
+// educational purposes.
 
 int lineget(char s[], int linemax)
 {
